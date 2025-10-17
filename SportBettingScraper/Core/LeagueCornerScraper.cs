@@ -214,13 +214,8 @@ public static class LeagueCornersScraper
 
             foreach (var fixture in league.Fixtures)
             {
-                string homeName = NormalizeTeamName(fixture.HomeTeam, aliases);
-                string awayName = NormalizeTeamName(fixture.AwayTeam, aliases);
-
-                var home = merged.FirstOrDefault(t =>
-                    t.Team.Equals(homeName, StringComparison.OrdinalIgnoreCase));
-                var away = merged.FirstOrDefault(t =>
-                    t.Team.Equals(awayName, StringComparison.OrdinalIgnoreCase));
+                var home = NormalizeTeamName(fixture.HomeTeam, aliases, merged);
+                var away = NormalizeTeamName(fixture.AwayTeam, aliases, merged);
 
                 if (home == null || away == null)
                 {
@@ -254,20 +249,33 @@ public static class LeagueCornersScraper
         }
     }
 
-    private static string NormalizeTeamName(string liveScoreName, Dictionary<string, string> aliases)
+    private static TeamCornerStats? NormalizeTeamName(string liveScoreName, IDictionary<string, string>? aliases, List<TeamCornerStats> merged)
     {
-        if (aliases == null || aliases.Count == 0)
-            return liveScoreName;
+        if (string.IsNullOrWhiteSpace(liveScoreName) || merged == null)
+            return null;
 
-        // try exact alias match (LiveScore name == alias value)
-        var csvName = aliases.FirstOrDefault(a =>
-            a.Value.Equals(liveScoreName, StringComparison.OrdinalIgnoreCase)).Key;
+        // Build all possible names that could represent this team.
+        // Include the original LiveScore name so it works when there is no alias.
+        var candidates = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+        {
+            liveScoreName.Trim()
+        };
 
-        // if found, return the CSV name (used in merged)
-        if (!string.IsNullOrEmpty(csvName))
-            return csvName;
+        // If aliases are provided, add any matching alias key/value pairs to the candidate set.
+        if (aliases != null && aliases.Count > 0)
+        {
+            foreach (var kv in aliases)
+            {
+                if (kv.Key.Equals(liveScoreName, StringComparison.OrdinalIgnoreCase) ||
+                    kv.Value.Equals(liveScoreName, StringComparison.OrdinalIgnoreCase))
+                {
+                    candidates.Add(kv.Key);   // canonical/csv name
+                    candidates.Add(kv.Value); // alt/live name
+                }
+            }
+        }
 
-        // otherwise return the same name (no alias match)
-        return liveScoreName;
+        // Single pass: return the first merged entry whose Team matches any candidate.
+        return merged.FirstOrDefault(t => candidates.Contains(t.Team));
     }
 }

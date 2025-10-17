@@ -64,12 +64,12 @@ public class LivescoreLeagues
             //),
 
             // --- Austria ---
-            //new League(
-            //    "Austria Bundesliga",
-            //    "https://www.livescore.com/en/football/austria/bundesliga/standings/",
-            //    "https://www.livescore.com/en/football/austria/bundesliga/fixtures/",
-            //    GetTeamsList("Austria Bundesliga", GetTeamAliases("Austria Bundesliga"), merged)
-            //),
+            new League(
+                "Austria Bundesliga",
+                "https://www.livescore.com/en/football/austria/bundesliga/standings/",
+                "https://www.livescore.com/en/football/austria/bundesliga/fixtures/",
+                GetTeamsList("Austria Bundesliga", GetTeamAliases("Austria Bundesliga"), merged)
+            ),
             //new League(
             //    "Austria 2. Liga",
             //    "https://www.livescore.com/en/football/austria/2-liga/standings/",
@@ -86,34 +86,34 @@ public class LivescoreLeagues
             //),
 
             // --- Bahrain ---
-            new League(
-                "Bahrain Premier League",
-                "https://www.livescore.com/en/football/bahrain/premier-league/standings/",
-                "https://www.livescore.com/en/football/bahrain/premier-league/fixtures/",
-                GetTeamsList("Bahrain Premier League", GetTeamAliases("Bahrain Premier League"), merged)
-            ),
+            //new League(
+            //    "Bahrain Premier League",
+            //    "https://www.livescore.com/en/football/bahrain/premier-league/standings/",
+            //    "https://www.livescore.com/en/football/bahrain/premier-league/fixtures/",
+            //    GetTeamsList("Bahrain Premier League", GetTeamAliases("Bahrain Premier League"), merged)
+            //),
 
             // --- Belarus ---
-            new League(
-                "Belarus Vysshaya Liga",
-                "https://www.livescore.com/en/football/belarus/premier-league/standings/",
-                "https://www.livescore.com/en/football/belarus/premier-league/fixtures/",
-                GetTeamsList("Belarus Vysshaya Liga", GetTeamAliases("Belarus Vysshaya Liga"), merged)
-            ),
+            //new League(
+            //    "Belarus Vysshaya Liga",
+            //    "https://www.livescore.com/en/football/belarus/premier-league/standings/",
+            //    "https://www.livescore.com/en/football/belarus/premier-league/fixtures/",
+            //    GetTeamsList("Belarus Vysshaya Liga", GetTeamAliases("Belarus Vysshaya Liga"), merged)
+            //),
 
             // --- Belgium ---
             new League(
                 "Belgium First Division A",
-                "https://www.livescore.com/en/football/belgium/first-division-a/standings/",
-                "https://www.livescore.com/en/football/belgium/first-division-a/fixtures/",
+                "https://www.livescore.com/en/football/belgium/belgian-pro-league/standings/",
+                "https://www.livescore.com/en/football/belgium/belgian-pro-league/fixtures/",
                 GetTeamsList("Belgium First Division A", GetTeamAliases("Belgium First Division A"), merged)
             ),
-            new League(
-                "Belgium 1B Pro League",
-                "https://www.livescore.com/en/football/belgium/first-division-b/standings/", // formerly Proximus League
-                "https://www.livescore.com/en/football/belgium/first-division-b/fixtures/",
-                GetTeamsList("Belgium 1B Pro League", GetTeamAliases("Belgium 1B Pro League"), merged)
-            ),
+            //new League(
+            //    "Belgium 1B Pro League",
+            //    "https://www.livescore.com/en/football/belgium/first-division-b/standings/", // formerly Proximus League
+            //    "https://www.livescore.com/en/football/belgium/first-division-b/fixtures/",
+            //    GetTeamsList("Belgium 1B Pro League", GetTeamAliases("Belgium 1B Pro League"), merged)
+            //),
 
             // --- Bolivia ---
             //new League(
@@ -124,26 +124,26 @@ public class LivescoreLeagues
             //),
 
             // --- Bosnia and Herzegovina ---
-            new League(
-                "Bosnia and Herzegovina Premier League",
-                "https://www.livescore.com/en/football/bosnia-and-herzegovina/premier-league/standings/",
-                "https://www.livescore.com/en/football/bosnia-and-herzegovina/premier-league/fixtures/",
-                GetTeamsList("Bosnia and Herzegovina Premier League", GetTeamAliases("Bosnia and Herzegovina Premier League"), merged)
-            ),
+            //new League(
+            //    "Bosnia and Herzegovina Premier League",
+            //    "https://www.livescore.com/en/football/bosnia-and-herzegovina/premier-league/standings/",
+            //    "https://www.livescore.com/en/football/bosnia-and-herzegovina/premier-league/fixtures/",
+            //    GetTeamsList("Bosnia and Herzegovina Premier League", GetTeamAliases("Bosnia and Herzegovina Premier League"), merged)
+            //),
 
             // --- Brazil ---
-            new League(
-                "Brazil Serie A",
-                "https://www.livescore.com/en/football/brazil/serie-a/standings/",
-                "https://www.livescore.com/en/football/brazil/serie-a/fixtures/",
-                GetTeamsList("Brazil Serie A", GetTeamAliases("Brazil Serie A"), merged)
-            ),
-            new League(
-                "Brazil Serie B",
-                "https://www.livescore.com/en/football/brazil/serie-b/standings/",
-                "https://www.livescore.com/en/football/brazil/serie-b/fixtures/",
-                GetTeamsList("Brazil Serie B", GetTeamAliases("Brazil Serie B"), merged)
-            ),
+            //new League(
+            //    "Brazil Serie A",
+            //    "https://www.livescore.com/en/football/brazil/serie-a/standings/",
+            //    "https://www.livescore.com/en/football/brazil/serie-a/fixtures/",
+            //    GetTeamsList("Brazil Serie A", GetTeamAliases("Brazil Serie A"), merged)
+            //),
+            //new League(
+            //    "Brazil Serie B",
+            //    "https://www.livescore.com/en/football/brazil/serie-b/standings/",
+            //    "https://www.livescore.com/en/football/brazil/serie-b/fixtures/",
+            //    GetTeamsList("Brazil Serie B", GetTeamAliases("Brazil Serie B"), merged)
+            //),
 
             // --- Bulgaria ---
             //new League(
@@ -154,26 +154,26 @@ public class LivescoreLeagues
             //),
 
             // --- Chile ---
-            new League(
-                "Chile Primera Division",
-                "https://www.livescore.com/en/football/chile/primera-division/standings/",
-                "https://www.livescore.com/en/football/chile/primera-division/fixtures/",
-                GetTeamsList("Chile Primera Division", GetTeamAliases("Chile Primera Division"), merged)
-            ),
-            new League(
-                "Chile Primera B",
-                "https://www.livescore.com/en/football/chile/primera-b/standings/",
-                "https://www.livescore.com/en/football/chile/primera-b/fixtures/",
-                GetTeamsList("Chile Primera B", GetTeamAliases("Chile Primera B"), merged)
-            ),
+            //new League(
+            //    "Chile Primera Division",
+            //    "https://www.livescore.com/en/football/chile/primera-division/standings/",
+            //    "https://www.livescore.com/en/football/chile/primera-division/fixtures/",
+            //    GetTeamsList("Chile Primera Division", GetTeamAliases("Chile Primera Division"), merged)
+            //),
+            //new League(
+            //    "Chile Primera B",
+            //    "https://www.livescore.com/en/football/chile/primera-b/standings/",
+            //    "https://www.livescore.com/en/football/chile/primera-b/fixtures/",
+            //    GetTeamsList("Chile Primera B", GetTeamAliases("Chile Primera B"), merged)
+            //),
 
             // --- China ---
-            new League(
-                "China Super League",
-                "https://www.livescore.com/en/football/china/super-league/standings/",
-                "https://www.livescore.com/en/football/china/super-league/fixtures/",
-                GetTeamsList("China Super League", GetTeamAliases("China Super League"), merged)
-            ),
+            //new League(
+            //    "China Super League",
+            //    "https://www.livescore.com/en/football/china/super-league/standings/",
+            //    "https://www.livescore.com/en/football/china/super-league/fixtures/",
+            //    GetTeamsList("China Super League", GetTeamAliases("China Super League"), merged)
+            //),
 
             // --- Colombia ---
             new League(
@@ -182,12 +182,12 @@ public class LivescoreLeagues
                 "https://www.livescore.com/en/football/colombia/primera-a-clausura/fixtures/",
                 GetTeamsList("Colombia Primera A", GetTeamAliases("Colombia Primera A"), merged)
             ),
-            new League(
-                "Colombia Primera B",
-                "https://www.livescore.com/en/football/colombia/primera-b-clausura/standings/",
-                "https://www.livescore.com/en/football/colombia/primera-b-clausura/fixtures/",
-                GetTeamsList("Colombia Primera B", GetTeamAliases("Colombia Primera B"), merged)
-            ),
+            //new League(
+            //    "Colombia Primera B",
+            //    "https://www.livescore.com/en/football/colombia/primera-b-clausura/standings/",
+            //    "https://www.livescore.com/en/football/colombia/primera-b-clausura/fixtures/",
+            //    GetTeamsList("Colombia Primera B", GetTeamAliases("Colombia Primera B"), merged)
+            //),
 
             // --- Costa Rica ---
             //new League(
@@ -204,54 +204,54 @@ public class LivescoreLeagues
             //    "https://www.livescore.com/en/football/croatia/1-hnl/fixtures/",
             //    GetTeamsList("Croatia 1.HNL", GetTeamAliases("Croatia 1.HNL"), merged)
             //),
-            new League(
-                "Croatia 2. HNL",
-                "https://www.livescore.com/en/football/croatia/2nd-league/standings/",
-                "https://www.livescore.com/en/football/croatia/2nd-league/fixtures/",
-                GetTeamsList("Croatia 2. HNL", GetTeamAliases("Croatia 2. HNL"), merged)
-            ),
+            //new League(
+            //    "Croatia 2. HNL",
+            //    "https://www.livescore.com/en/football/croatia/2nd-league/standings/",
+            //    "https://www.livescore.com/en/football/croatia/2nd-league/fixtures/",
+            //    GetTeamsList("Croatia 2. HNL", GetTeamAliases("Croatia 2. HNL"), merged)
+            //),
 
             // --- Cyprus ---
-            new League(
-                "Cyprus First Division",
-                "https://www.livescore.com/en/football/cyprus/1-division/standings/",
-                "https://www.livescore.com/en/football/cyprus/1-division/fixtures/",
-                GetTeamsList("Cyprus First Division", GetTeamAliases("Cyprus First Division"), merged)
-            ),
+            //new League(
+            //    "Cyprus First Division",
+            //    "https://www.livescore.com/en/football/cyprus/1-division/standings/",
+            //    "https://www.livescore.com/en/football/cyprus/1-division/fixtures/",
+            //    GetTeamsList("Cyprus First Division", GetTeamAliases("Cyprus First Division"), merged)
+            //),
 
             // --- Czech Republic ---
-            new League(
-                "Czech Republic 1. Liga",
-                "https://www.livescore.com/en/football/czech-republic/1st-league/standings/",
-                "https://www.livescore.com/en/football/czech-republic/1st-league/fixtures/",
-                GetTeamsList("Czech Republic 1. Liga", GetTeamAliases("Czech Republic 1. Liga"), merged)
-            ),
-            new League(
-                "Czech Republic Division 2",
-                "https://www.livescore.com/en/football/czech-republic/2nd-league/standings/",
-                "https://www.livescore.com/en/football/czech-republic/2nd-league/fixtures/",
-                GetTeamsList("Czech Republic Division 2", GetTeamAliases("Czech Republic Division 2"), merged)
-            ),
+            //new League(
+            //    "Czech Republic 1. Liga",
+            //    "https://www.livescore.com/en/football/czech-republic/1st-league/standings/",
+            //    "https://www.livescore.com/en/football/czech-republic/1st-league/fixtures/",
+            //    GetTeamsList("Czech Republic 1. Liga", GetTeamAliases("Czech Republic 1. Liga"), merged)
+            //),
+            //new League(
+            //    "Czech Republic Division 2",
+            //    "https://www.livescore.com/en/football/czech-republic/2nd-league/standings/",
+            //    "https://www.livescore.com/en/football/czech-republic/2nd-league/fixtures/",
+            //    GetTeamsList("Czech Republic Division 2", GetTeamAliases("Czech Republic Division 2"), merged)
+            //),
 
             // --- Denmark ---
-            new League(
-                "Denmark Superligaen",
-                "https://www.livescore.com/en/football/denmark/superliga/standings/",
-                "https://www.livescore.com/en/football/denmark/superliga/fixtures/",
-                GetTeamsList("Denmark Superligaen", GetTeamAliases("Denmark Superligaen"), merged)
-            ),
+            //new League(
+            //    "Denmark Superligaen",
+            //    "https://www.livescore.com/en/football/denmark/superliga/standings/",
+            //    "https://www.livescore.com/en/football/denmark/superliga/fixtures/",
+            //    GetTeamsList("Denmark Superligaen", GetTeamAliases("Denmark Superligaen"), merged)
+            //),
             //new League(
             //    "Denmark Division 1",
             //    "https://www.livescore.com/en/football/denmark/division-1/",
             //    "https://www.livescore.com/en/football/denmark/division-1/fixtures/",
             //    GetTeamsList("Denmark Division 1", GetTeamAliases("Denmark Division 1"), merged)
             //),
-            new League(
-                "Estonia Meistriliiga",
-                "https://www.livescore.com/en/football/estonia/meistriliiga/standings/",
-                "https://www.livescore.com/en/football/estonia/meistriliiga/fixtures/",
-                GetTeamsList("Estonia Meistriliiga", GetTeamAliases("Estonia Meistriliiga"), merged)
-            ),
+            //new League(
+            //    "Estonia Meistriliiga",
+            //    "https://www.livescore.com/en/football/estonia/meistriliiga/standings/",
+            //    "https://www.livescore.com/en/football/estonia/meistriliiga/fixtures/",
+            //    GetTeamsList("Estonia Meistriliiga", GetTeamAliases("Estonia Meistriliiga"), merged)
+            //),
 
             new League(
                 "Finland Veikkausliiga",
@@ -260,39 +260,32 @@ public class LivescoreLeagues
                 GetTeamsList("Finland Veikkausliiga", GetTeamAliases("Finland Veikkausliiga"), merged)
             ),
 
-            new League(
-                "Finland Ykkosliiga",
-                "https://www.livescore.com/en/football/finland/ykkosliiga/standings/",
-                "https://www.livescore.com/en/football/finland/ykkosliiga/fixtures/",
-                GetTeamsList("Finland Ykkosliiga", GetTeamAliases("Finland Ykkosliiga"), merged)
-            ),
+            //new League(
+            //    "Finland Ykkosliiga",
+            //    "https://www.livescore.com/en/football/finland/ykkosliiga/standings/",
+            //    "https://www.livescore.com/en/football/finland/ykkosliiga/fixtures/",
+            //    GetTeamsList("Finland Ykkosliiga", GetTeamAliases("Finland Ykkosliiga"), merged)
+            //),
 
             new League(
-                "France Ligue 1",
-                "https://www.livescore.com/en/football/france/ligue-1/standings/",
-                "https://www.livescore.com/en/football/france/ligue-1/fixtures/",
-                GetTeamsList("France Ligue 1", GetTeamAliases("France Ligue 1"), merged)
-            ),
-
-            new League(
-                "Germany Bundesliga II",
+                "Germany Bundes II",
                 "https://www.livescore.com/en/football/germany/2-bundesliga/standings/",
                 "https://www.livescore.com/en/football/germany/2-bundesliga/fixtures/",
-                GetTeamsList("Germany Bundesliga II", GetTeamAliases("Germany Bundesliga II"), merged)
+                GetTeamsList("Germany Bundes II", GetTeamAliases("Germany Bundes II"), merged)
             ),
 
-            new League(
-                "Greece Super League",
-                "https://www.livescore.com/en/football/greece/super-league/standings/",
-                "https://www.livescore.com/en/football/greece/super-league/fixtures/",
-                GetTeamsList("Greece Super League", GetTeamAliases("Greece Super League"), merged)
-            ),
-            new League(
-                "Holland Eerste Divisie",
-                "https://www.livescore.com/en/football/netherlands/eerste-divisie/standings/",
-                "https://www.livescore.com/en/football/netherlands/eerste-divisie/fixtures/",
-                GetTeamsList("Holland Eerste Divisie", GetTeamAliases("Holland Eerste Divisie"), merged)
-            ),
+            //new League(
+            //    "Greece Super League",
+            //    "https://www.livescore.com/en/football/greece/super-league/standings/",
+            //    "https://www.livescore.com/en/football/greece/super-league/fixtures/",
+            //    GetTeamsList("Greece Super League", GetTeamAliases("Greece Super League"), merged)
+            //),
+            //new League(
+            //    "Holland Eerste Divisie",
+            //    "https://www.livescore.com/en/football/netherlands/eerste-divisie/standings/",
+            //    "https://www.livescore.com/en/football/netherlands/eerste-divisie/fixtures/",
+            //    GetTeamsList("Holland Eerste Divisie", GetTeamAliases("Holland Eerste Divisie"), merged)
+            //),
             new League(
                 "Holland Eredivisie",
                 "https://www.livescore.com/en/football/netherlands/eredivisie/standings/",
@@ -317,30 +310,30 @@ public class LivescoreLeagues
             //    "https://www.livescore.com/en/football/india/isl/fixtures/",
             //    GetTeamsList("India ISL", GetTeamAliases("India ISL"), merged)
             //),
-            new League(
-                "Ireland Division 1",
-                "https://www.livescore.com/en/football/ireland/first-division/standings/",  // possible mapping
-                "https://www.livescore.com/en/football/ireland/first-division/fixtures/",
-                GetTeamsList("Ireland Division 1", GetTeamAliases("Ireland Division 1"), merged)
-            ),
-            new League(
-                "Ireland Premier Division",
-                "https://www.livescore.com/en/football/ireland/league-of-ireland-premier-division/standings/",
-                "https://www.livescore.com/en/football/ireland/league-of-ireland-premier-division/fixtures/",
-                GetTeamsList("Ireland Premier Division", GetTeamAliases("Ireland Premier Division"), merged)
-            ),
-            new League(
-                "Israel Leumit League",
-                "https://www.livescore.com/en/football/israel/liga-leumit/standings/",
-                "https://www.livescore.com/en/football/israel/liga-leumit/fixtures/",
-                GetTeamsList("Israel Leumit League", GetTeamAliases("Israel Leumit League"), merged)
-            ),
-            new League(
-                "Israel Ligat ha Al",
-                "https://www.livescore.com/en/football/israel/premier-league/standings/",
-                "https://www.livescore.com/en/football/israel/premier-league/fixtures/",
-                GetTeamsList("Israel Ligat ha Al", GetTeamAliases("Israel Ligat ha Al"), merged)
-            ),
+            //new League(
+            //    "Ireland Division 1",
+            //    "https://www.livescore.com/en/football/ireland/first-division/standings/",  // possible mapping
+            //    "https://www.livescore.com/en/football/ireland/first-division/fixtures/",
+            //    GetTeamsList("Ireland Division 1", GetTeamAliases("Ireland Division 1"), merged)
+            //),
+            //new League(
+            //    "Ireland Premier Division",
+            //    "https://www.livescore.com/en/football/ireland/league-of-ireland-premier-division/standings/",
+            //    "https://www.livescore.com/en/football/ireland/league-of-ireland-premier-division/fixtures/",
+            //    GetTeamsList("Ireland Premier Division", GetTeamAliases("Ireland Premier Division"), merged)
+            //),
+            //new League(
+            //    "Israel Leumit League",
+            //    "https://www.livescore.com/en/football/israel/liga-leumit/standings/",
+            //    "https://www.livescore.com/en/football/israel/liga-leumit/fixtures/",
+            //    GetTeamsList("Israel Leumit League", GetTeamAliases("Israel Leumit League"), merged)
+            //),
+            //new League(
+            //    "Israel Ligat ha Al",
+            //    "https://www.livescore.com/en/football/israel/premier-league/standings/",
+            //    "https://www.livescore.com/en/football/israel/premier-league/fixtures/",
+            //    GetTeamsList("Israel Ligat ha Al", GetTeamAliases("Israel Ligat ha Al"), merged)
+            //),
             new League(
                 "Italy Serie B",
                 "https://www.livescore.com/en/football/italy/serie-b/standings/",
@@ -359,93 +352,93 @@ public class LivescoreLeagues
             //    "https://www.livescore.com/en/football/japan/j2-league/fixtures/",
             //    GetTeamsList("Japan J2-League", GetTeamAliases("Japan J2-League"), merged)
             //),
-            new League(
-                "Jordan Premier League",
-                "https://www.livescore.com/en/football/jordan/pro-league/standings/",
-                "https://www.livescore.com/en/football/jordan/pro-league/fixtures/",
-                GetTeamsList("Jordan Premier League", GetTeamAliases("Jordan Premier League"), merged)
-            ),
-            new League(
-                "Kazakhstan Premier League",
-                "https://www.livescore.com/en/football/kazakhstan/premier-league/standings/",
-                "https://www.livescore.com/en/football/kazakhstan/premier-league/fixtures/",
-                GetTeamsList("Kazakhstan Premier League", GetTeamAliases("Kazakhstan Premier League"), merged)
-            ),
-            new League(
-                "Kuwait Premier League",
-                "https://www.livescore.com/en/football/kuwait/premier-league/standings/",
-                "https://www.livescore.com/en/football/kuwait/premier-league/fixtures/",
-                GetTeamsList("Kuwait Premier League", GetTeamAliases("Kuwait Premier League"), merged)
-            ),
-            new League(
-                "Lithuania A Lyga",
-                "https://www.livescore.com/en/football/lithuania/a-lyga/standings/",
-                "https://www.livescore.com/en/football/lithuania/a-lyga/fixtures/",
-                GetTeamsList("Lithuania A Lyga", GetTeamAliases("Lithuania A Lyga"), merged)
-            ),
-            new League(
-                "Malaysia Super League",
-                "https://www.livescore.com/en/football/malaysia/super-league/standings/",
-                "https://www.livescore.com/en/football/malaysia/super-league/fixtures/",
-                GetTeamsList("Malaysia Super League", GetTeamAliases("Malaysia Super League"), merged)
-            ),
-            new League(
-                "Malta Premier League",
-                "https://www.livescore.com/en/football/malta/premier-league/standings/",
-                "https://www.livescore.com/en/football/malta/premier-league/fixtures/",
-                GetTeamsList("Malta Premier League", GetTeamAliases("Malta Premier League"), merged)
-            ),
+            //new League(
+            //    "Jordan Premier League",
+            //    "https://www.livescore.com/en/football/jordan/pro-league/standings/",
+            //    "https://www.livescore.com/en/football/jordan/pro-league/fixtures/",
+            //    GetTeamsList("Jordan Premier League", GetTeamAliases("Jordan Premier League"), merged)
+            //),
+            //new League(
+            //    "Kazakhstan Premier League",
+            //    "https://www.livescore.com/en/football/kazakhstan/premier-league/standings/",
+            //    "https://www.livescore.com/en/football/kazakhstan/premier-league/fixtures/",
+            //    GetTeamsList("Kazakhstan Premier League", GetTeamAliases("Kazakhstan Premier League"), merged)
+            //),
+            //new League(
+            //    "Kuwait Premier League",
+            //    "https://www.livescore.com/en/football/kuwait/premier-league/standings/",
+            //    "https://www.livescore.com/en/football/kuwait/premier-league/fixtures/",
+            //    GetTeamsList("Kuwait Premier League", GetTeamAliases("Kuwait Premier League"), merged)
+            //),
+            //new League(
+            //    "Lithuania A Lyga",
+            //    "https://www.livescore.com/en/football/lithuania/a-lyga/standings/",
+            //    "https://www.livescore.com/en/football/lithuania/a-lyga/fixtures/",
+            //    GetTeamsList("Lithuania A Lyga", GetTeamAliases("Lithuania A Lyga"), merged)
+            //),
+            //new League(
+            //    "Malaysia Super League",
+            //    "https://www.livescore.com/en/football/malaysia/super-league/standings/",
+            //    "https://www.livescore.com/en/football/malaysia/super-league/fixtures/",
+            //    GetTeamsList("Malaysia Super League", GetTeamAliases("Malaysia Super League"), merged)
+            //),
+            //new League(
+            //    "Malta Premier League",
+            //    "https://www.livescore.com/en/football/malta/premier-league/standings/",
+            //    "https://www.livescore.com/en/football/malta/premier-league/fixtures/",
+            //    GetTeamsList("Malta Premier League", GetTeamAliases("Malta Premier League"), merged)
+            //),
             new League(
                 "Mexico Apertura",
                 "https://www.livescore.com/en/football/mexico/liga-mx/standings/",
                 "https://www.livescore.com/en/football/mexico/liga-mx/fixtures/",
                 GetTeamsList("Mexico Apertura", GetTeamAliases("Mexico Apertura"), merged)
             ),
-            new League(
-                "Montenegro Prva Crnogorska Liga",
-                "https://www.livescore.com/en/football/montenegro/1-cfl/standings/",
-                "https://www.livescore.com/en/football/montenegro/1-cfl/fixtures/",
-                GetTeamsList("Montenegro Prva Crnogorska Liga", GetTeamAliases("Montenegro Prva Crnogorska Liga"), merged)
-            ),
-            new League(
-                "Morocco Botola Pro",
-                "https://www.livescore.com/en/football/morocco/botola-pro/standings/",
-                "https://www.livescore.com/en/football/morocco/botola-pro/fixtures/",
-                GetTeamsList("Morocco Botola Pro", GetTeamAliases("Morocco Botola Pro"), merged)
-            ),
-            new League(
-                "Northern Ireland NIFL Premiership",
-                "https://www.livescore.com/en/football/northern-ireland/premiership/standings/",
-                "https://www.livescore.com/en/football/northern-ireland/premiership/fixtures/",
-                GetTeamsList("Northern Ireland NIFL Premiership", GetTeamAliases("Northern Ireland NIFL Premiership"), merged)
-            ),
+            //new League(
+            //    "Montenegro Prva Crnogorska Liga",
+            //    "https://www.livescore.com/en/football/montenegro/1-cfl/standings/",
+            //    "https://www.livescore.com/en/football/montenegro/1-cfl/fixtures/",
+            //    GetTeamsList("Montenegro Prva Crnogorska Liga", GetTeamAliases("Montenegro Prva Crnogorska Liga"), merged)
+            //),
+            //new League(
+            //    "Morocco Botola Pro",
+            //    "https://www.livescore.com/en/football/morocco/botola-pro/standings/",
+            //    "https://www.livescore.com/en/football/morocco/botola-pro/fixtures/",
+            //    GetTeamsList("Morocco Botola Pro", GetTeamAliases("Morocco Botola Pro"), merged)
+            //),
+            //new League(
+            //    "Northern Ireland NIFL Premiership",
+            //    "https://www.livescore.com/en/football/northern-ireland/premiership/standings/",
+            //    "https://www.livescore.com/en/football/northern-ireland/premiership/fixtures/",
+            //    GetTeamsList("Northern Ireland NIFL Premiership", GetTeamAliases("Northern Ireland NIFL Premiership"), merged)
+            //),
 
-            new League(
-                "Norway Eliteserien",
-                "https://www.livescore.com/en/football/norway/eliteserien/standings/",
-                "https://www.livescore.com/en/football/norway/eliteserien/fixtures/",
-                GetTeamsList("Norway Eliteserien", GetTeamAliases("Norway Eliteserien"), merged)
-            ),
-            new League(
-                "Norway Division 1",
-                "https://www.livescore.com/en/football/norway/1-division/standings/",
-                "https://www.livescore.com/en/football/norway/1-division/fixtures/",
-                GetTeamsList("Norway Division 1", GetTeamAliases("Norway Division 1"), merged)
-            ),
+            //new League(
+            //    "Norway Eliteserien",
+            //    "https://www.livescore.com/en/football/norway/eliteserien/standings/",
+            //    "https://www.livescore.com/en/football/norway/eliteserien/fixtures/",
+            //    GetTeamsList("Norway Eliteserien", GetTeamAliases("Norway Eliteserien"), merged)
+            //),
+            //new League(
+            //    "Norway Division 1",
+            //    "https://www.livescore.com/en/football/norway/1-division/standings/",
+            //    "https://www.livescore.com/en/football/norway/1-division/fixtures/",
+            //    GetTeamsList("Norway Division 1", GetTeamAliases("Norway Division 1"), merged)
+            //),
 
-            new League(
-                "Paraguay Primera Division",
-                "https://www.livescore.com/en/football/paraguay/division-profesional-clausura/standings/",
-                "https://www.livescore.com/en/football/paraguay/division-profesional-clausura/fixtures/",
-                GetTeamsList("Paraguay Primera Division", GetTeamAliases("Paraguay Primera Division"), merged)
-            ),
+            //new League(
+            //    "Paraguay Primera Division",
+            //    "https://www.livescore.com/en/football/paraguay/division-profesional-clausura/standings/",
+            //    "https://www.livescore.com/en/football/paraguay/division-profesional-clausura/fixtures/",
+            //    GetTeamsList("Paraguay Primera Division", GetTeamAliases("Paraguay Primera Division"), merged)
+            //),
 
-            new League(
-                "Peru Liga 1",
-                "https://www.livescore.com/en/football/peru/liga-1/standings/",
-                "https://www.livescore.com/en/football/peru/liga-1/fixtures/",
-                GetTeamsList("Peru Liga 1", GetTeamAliases("Peru Liga 1"), merged)
-            ),
+            //new League(
+            //    "Peru Liga 1",
+            //    "https://www.livescore.com/en/football/peru/liga-1/standings/",
+            //    "https://www.livescore.com/en/football/peru/liga-1/fixtures/",
+            //    GetTeamsList("Peru Liga 1", GetTeamAliases("Peru Liga 1"), merged)
+            //),
 
             new League(
                 "Poland Ekstraklasa",
@@ -453,32 +446,32 @@ public class LivescoreLeagues
                 "https://www.livescore.com/en/football/poland/ekstraklasa/fixtures/",
                 GetTeamsList("Poland Ekstraklasa", GetTeamAliases("Poland Ekstraklasa"), merged)
             ),
-            new League(
-                "Poland I Liga",
-                "https://www.livescore.com/en/football/poland/i-liga/standings/",
-                "https://www.livescore.com/en/football/poland/i-liga/fixtures/",
-                GetTeamsList("Poland I Liga", GetTeamAliases("Poland I Liga"), merged)
-            ),
+            //new League(
+            //    "Poland I Liga",
+            //    "https://www.livescore.com/en/football/poland/i-liga/standings/",
+            //    "https://www.livescore.com/en/football/poland/i-liga/fixtures/",
+            //    GetTeamsList("Poland I Liga", GetTeamAliases("Poland I Liga"), merged)
+            //),
 
-            new League(
-                "Portugal Primeira Liga",
-                "https://www.livescore.com/en/football/portugal/primeira-liga/standings/",
-                "https://www.livescore.com/en/football/portugal/primeira-liga/fixtures/",
-                GetTeamsList("Portugal Primeira Liga", GetTeamAliases("Portugal Primeira Liga"), merged)
-            ),
-            new League(
-                "Portugal Segunda Liga",
-                "https://www.livescore.com/en/football/portugal/segunda-liga/standings/",
-                "https://www.livescore.com/en/football/portugal/segunda-liga/fixtures/",
-                GetTeamsList("Portugal Segunda Liga", GetTeamAliases("Portugal Segunda Liga"), merged)
-            ),
+            //new League(
+            //    "Portugal Primeira Liga",
+            //    "https://www.livescore.com/en/football/portugal/primeira-liga/standings/",
+            //    "https://www.livescore.com/en/football/portugal/primeira-liga/fixtures/",
+            //    GetTeamsList("Portugal Primeira Liga", GetTeamAliases("Portugal Primeira Liga"), merged)
+            //),
+            //new League(
+            //    "Portugal Segunda Liga",
+            //    "https://www.livescore.com/en/football/portugal/segunda-liga/standings/",
+            //    "https://www.livescore.com/en/football/portugal/segunda-liga/fixtures/",
+            //    GetTeamsList("Portugal Segunda Liga", GetTeamAliases("Portugal Segunda Liga"), merged)
+            //),
 
-            new League(
-                "Qatar QSL",
-                "https://www.livescore.com/en/football/qatar/qatar-stars-league/standings/",
-                "https://www.livescore.com/en/football/qatar/qatar-stars-league/fixtures/",
-                GetTeamsList("Qatar QSL", GetTeamAliases("Qatar QSL"), merged)
-            ),
+            //new League(
+            //    "Qatar QSL",
+            //    "https://www.livescore.com/en/football/qatar/qatar-stars-league/standings/",
+            //    "https://www.livescore.com/en/football/qatar/qatar-stars-league/fixtures/",
+            //    GetTeamsList("Qatar QSL", GetTeamAliases("Qatar QSL"), merged)
+            //),
 
             new League(
                 "Romania Liga I",
@@ -486,12 +479,12 @@ public class LivescoreLeagues
                 "https://www.livescore.com/en/football/romania/liga-1/fixtures/",
                 GetTeamsList("Romania Liga I", GetTeamAliases("Romania Liga I"), merged)
             ),
-            new League(
-                "Romania Liga II",
-                "https://www.livescore.com/en/football/romania/liga-ii/standings/",
-                "https://www.livescore.com/en/football/romania/liga-ii/fixtures/",
-                GetTeamsList("Romania Liga II", GetTeamAliases("Romania Liga II"), merged)
-            ),
+            //new League(
+            //    "Romania Liga II",
+            //    "https://www.livescore.com/en/football/romania/liga-ii/standings/",
+            //    "https://www.livescore.com/en/football/romania/liga-ii/fixtures/",
+            //    GetTeamsList("Romania Liga II", GetTeamAliases("Romania Liga II"), merged)
+            //),
             
             //new League(
             //    "Russia FNL",
@@ -513,18 +506,18 @@ public class LivescoreLeagues
                 GetTeamsList("Saudi Arabia Saudi Professional", GetTeamAliases("Saudi Arabia Saudi Professional"), merged)
             ),
 
-            new League(
-                "Scotland Premiership",
-                "https://www.livescore.com/en/football/scotland/premiership/standings/",
-                "https://www.livescore.com/en/football/scotland/premiership/fixtures/",
-                GetTeamsList("Scotland Premiership", GetTeamAliases("Scotland Premiership"), merged)
-            ),
-            new League(
-                "Scotland Championship",
-                "https://www.livescore.com/en/football/scotland/championship/standings/",
-                "https://www.livescore.com/en/football/scotland/championship/fixtures/",
-                GetTeamsList("Scotland Championship", GetTeamAliases("Scotland Championship"), merged)
-            ),
+            //new League(
+            //    "Scotland Premiership",
+            //    "https://www.livescore.com/en/football/scotland/premiership/standings/",
+            //    "https://www.livescore.com/en/football/scotland/premiership/fixtures/",
+            //    GetTeamsList("Scotland Premiership", GetTeamAliases("Scotland Premiership"), merged)
+            //),
+            //new League(
+            //    "Scotland Championship",
+            //    "https://www.livescore.com/en/football/scotland/championship/standings/",
+            //    "https://www.livescore.com/en/football/scotland/championship/fixtures/",
+            //    GetTeamsList("Scotland Championship", GetTeamAliases("Scotland Championship"), merged)
+            //),
             //new League(
             //    "Scotland League One",
             //    "https://www.livescore.com/en/football/scotland/league-one/",
@@ -538,45 +531,45 @@ public class LivescoreLeagues
             //    GetTeamsList("Scotland League Two", GetTeamAliases("Scotland League Two"), merged)
             //),
             
-            new League(
-                "Serbia Super Liga",
-                "https://www.livescore.com/en/football/serbia/super-liga/standings/",
-                "https://www.livescore.com/en/football/serbia/super-liga/fixtures/",
-                GetTeamsList("Serbia Super Liga", GetTeamAliases("Serbia Super Liga"), merged)
-            ),
+            //new League(
+            //    "Serbia Super Liga",
+            //    "https://www.livescore.com/en/football/serbia/super-liga/standings/",
+            //    "https://www.livescore.com/en/football/serbia/super-liga/fixtures/",
+            //    GetTeamsList("Serbia Super Liga", GetTeamAliases("Serbia Super Liga"), merged)
+            //),
 
-            new League(
-                "Slovakia Fortuna liga",
-                "https://www.livescore.com/en/football/slovakia/fortuna-liga/standings/",
-                "https://www.livescore.com/en/football/slovakia/fortuna-liga/fixtures/",
-                GetTeamsList("Slovakia Fortuna liga", GetTeamAliases("Slovakia Fortuna liga"), merged)
-            ),
-            new League(
-                "Slovenia Prva liga",
-                "https://www.livescore.com/en/football/slovenia/prva-liga/standings/",
-                "https://www.livescore.com/en/football/slovenia/prva-liga/fixtures/",
-                GetTeamsList("Slovenia Prva liga", GetTeamAliases("Slovenia Prva liga"), merged)
-            ),
+            //new League(
+            //    "Slovakia Fortuna liga",
+            //    "https://www.livescore.com/en/football/slovakia/fortuna-liga/standings/",
+            //    "https://www.livescore.com/en/football/slovakia/fortuna-liga/fixtures/",
+            //    GetTeamsList("Slovakia Fortuna liga", GetTeamAliases("Slovakia Fortuna liga"), merged)
+            //),
+            //new League(
+            //    "Slovenia Prva liga",
+            //    "https://www.livescore.com/en/football/slovenia/prva-liga/standings/",
+            //    "https://www.livescore.com/en/football/slovenia/prva-liga/fixtures/",
+            //    GetTeamsList("Slovenia Prva liga", GetTeamAliases("Slovenia Prva liga"), merged)
+            //),
 
-            new League(
-                "South Africa Premier League",
-                "https://www.livescore.com/en/football/south-africa/premier-league/standings/",
-                "https://www.livescore.com/en/football/south-africa/premier-league/fixtures/",
-                GetTeamsList("South Africa Premier League", GetTeamAliases("South Africa Premier League"), merged)
-            ),
+            //new League(
+            //    "South Africa Premier League",
+            //    "https://www.livescore.com/en/football/south-africa/premier-league/standings/",
+            //    "https://www.livescore.com/en/football/south-africa/premier-league/fixtures/",
+            //    GetTeamsList("South Africa Premier League", GetTeamAliases("South Africa Premier League"), merged)
+            //),
 
-            new League(
-                "South Korea K League 1",
-                "https://www.livescore.com/en/football/republic-of-korea/k-league-1/standings/",
-                "https://www.livescore.com/en/football/republic-of-korea/k-league-1/fixtures/",
-                GetTeamsList("South Korea K League 1", GetTeamAliases("South Korea K League 1"), merged)
-            ),
-            new League(
-                "South Korea K League 2",
-                "https://www.livescore.com/en/football/republic-of-korea/k-league-2/standings/",
-                "https://www.livescore.com/en/football/republic-of-korea/k-league-2/fixtures/",
-                GetTeamsList("South Korea K League 2", GetTeamAliases("South Korea K League 2"), merged)
-            ),
+            //new League(
+            //    "South Korea K League 1",
+            //    "https://www.livescore.com/en/football/republic-of-korea/k-league-1/standings/",
+            //    "https://www.livescore.com/en/football/republic-of-korea/k-league-1/fixtures/",
+            //    GetTeamsList("South Korea K League 1", GetTeamAliases("South Korea K League 1"), merged)
+            //),
+            //new League(
+            //    "South Korea K League 2",
+            //    "https://www.livescore.com/en/football/republic-of-korea/k-league-2/standings/",
+            //    "https://www.livescore.com/en/football/republic-of-korea/k-league-2/fixtures/",
+            //    GetTeamsList("South Korea K League 2", GetTeamAliases("South Korea K League 2"), merged)
+            //),
 
             new League(
                 "Spain Segunda",
@@ -585,38 +578,38 @@ public class LivescoreLeagues
                 GetTeamsList("Spain Segunda", GetTeamAliases("Spain Segunda"), merged)
             ),
 
-            new League(
-                "Sweden Allsvenskan",
-                "https://www.livescore.com/en/football/sweden/allsvenskan/standings/",
-                "https://www.livescore.com/en/football/sweden/allsvenskan/fixtures/",
-                GetTeamsList("Sweden Allsvenskan", GetTeamAliases("Sweden Allsvenskan"), merged)
-            ),
-            new League(
-                "Sweden Superettan",
-                "https://www.livescore.com/en/football/sweden/superettan/standings/",
-                "https://www.livescore.com/en/football/sweden/superettan/fixtures/",
-                GetTeamsList("Sweden Superettan", GetTeamAliases("Sweden Superettan"), merged)
-            ),
+            //new League(
+            //    "Sweden Allsvenskan",
+            //    "https://www.livescore.com/en/football/sweden/allsvenskan/standings/",
+            //    "https://www.livescore.com/en/football/sweden/allsvenskan/fixtures/",
+            //    GetTeamsList("Sweden Allsvenskan", GetTeamAliases("Sweden Allsvenskan"), merged)
+            //),
+            //new League(
+            //    "Sweden Superettan",
+            //    "https://www.livescore.com/en/football/sweden/superettan/standings/",
+            //    "https://www.livescore.com/en/football/sweden/superettan/fixtures/",
+            //    GetTeamsList("Sweden Superettan", GetTeamAliases("Sweden Superettan"), merged)
+            //),
 
-            new League(
-                "Switzerland Super League",
-                "https://www.livescore.com/en/football/switzerland/super-league/standings/",
-                "https://www.livescore.com/en/football/switzerland/super-league/fixtures/",
-                GetTeamsList("Switzerland Super League", GetTeamAliases("Switzerland Super League"), merged)
-            ),
-            new League(
-                "Switzerland Challenge League",
-                "https://www.livescore.com/en/football/switzerland/challenge-league/standings/",
-                "https://www.livescore.com/en/football/switzerland/challenge-league/fixtures/",
-                GetTeamsList("Switzerland Challenge League", GetTeamAliases("Switzerland Challenge League"), merged)
-            ),
+            //new League(
+            //    "Switzerland Super League",
+            //    "https://www.livescore.com/en/football/switzerland/super-league/standings/",
+            //    "https://www.livescore.com/en/football/switzerland/super-league/fixtures/",
+            //    GetTeamsList("Switzerland Super League", GetTeamAliases("Switzerland Super League"), merged)
+            //),
+            //new League(
+            //    "Switzerland Challenge League",
+            //    "https://www.livescore.com/en/football/switzerland/challenge-league/standings/",
+            //    "https://www.livescore.com/en/football/switzerland/challenge-league/fixtures/",
+            //    GetTeamsList("Switzerland Challenge League", GetTeamAliases("Switzerland Challenge League"), merged)
+            //),
 
-            new League(
-                "Thailand Thai League 1",
-                "https://www.livescore.com/en/football/thailand/thai-league/standings/",
-                "https://www.livescore.com/en/football/thailand/thai-league/fixtures/",
-                GetTeamsList("Thailand Thai League 1", GetTeamAliases("Thailand Thai League 1"), merged)
-            ),
+            //new League(
+            //    "Thailand Thai League 1",
+            //    "https://www.livescore.com/en/football/thailand/thai-league/standings/",
+            //    "https://www.livescore.com/en/football/thailand/thai-league/fixtures/",
+            //    GetTeamsList("Thailand Thai League 1", GetTeamAliases("Thailand Thai League 1"), merged)
+            //),
 
             new League(
                 "Turkey Super Lig",
@@ -624,33 +617,33 @@ public class LivescoreLeagues
                 "https://www.livescore.com/en/football/turkeye/super-lig/fixtures/",
                 GetTeamsList("Turkey Super Lig", GetTeamAliases("Turkey Super Lig"), merged)
             ),
-            new League(
-                "Turkey 1. Lig",
-                "https://www.livescore.com/en/football/turkiye/1st-lig/standings/",
-                "https://www.livescore.com/en/football/turkiye/1st-lig/fixtures/",
-                GetTeamsList("Turkey 1. Lig", GetTeamAliases("Turkey 1. Lig"), merged)
-            ),
+            //new League(
+            //    "Turkey 1. Lig",
+            //    "https://www.livescore.com/en/football/turkiye/1st-lig/standings/",
+            //    "https://www.livescore.com/en/football/turkiye/1st-lig/fixtures/",
+            //    GetTeamsList("Turkey 1. Lig", GetTeamAliases("Turkey 1. Lig"), merged)
+            //),
 
-            new League(
-                "Ukraine Premier League",
-                "https://www.livescore.com/en/football/ukraine/premier-league/standings/",
-                "https://www.livescore.com/en/football/ukraine/premier-league/fixtures/",
-                GetTeamsList("Ukraine Premier League", GetTeamAliases("Ukraine Premier League"), merged)
-            ),
+            //new League(
+            //    "Ukraine Premier League",
+            //    "https://www.livescore.com/en/football/ukraine/premier-league/standings/",
+            //    "https://www.livescore.com/en/football/ukraine/premier-league/fixtures/",
+            //    GetTeamsList("Ukraine Premier League", GetTeamAliases("Ukraine Premier League"), merged)
+            //),
 
-            new League(
-                "United Arab Emirates UAE League",
-                "https://www.livescore.com/en/football/united-arab-emirates/uae-league/standings/",
-                "https://www.livescore.com/en/football/united-arab-emirates/uae-league/fixtures/",
-                GetTeamsList("United Arab Emirates UAE League", GetTeamAliases("United Arab Emirates UAE League"), merged)
-            ),
+            //new League(
+            //    "United Arab Emirates UAE League",
+            //    "https://www.livescore.com/en/football/united-arab-emirates/uae-league/standings/",
+            //    "https://www.livescore.com/en/football/united-arab-emirates/uae-league/fixtures/",
+            //    GetTeamsList("United Arab Emirates UAE League", GetTeamAliases("United Arab Emirates UAE League"), merged)
+            //),
 
-            new League(
-                "Uruguay Primera Division",
-                "https://www.livescore.com/en/football/uruguay/primera-division-clausura/standings/",
-                "https://www.livescore.com/en/football/uruguay/primera-division-clausura/fixtures/",
-                GetTeamsList("Uruguay Primera Division", GetTeamAliases("Uruguay Primera Division"), merged)
-            ),
+            //new League(
+            //    "Uruguay Primera Division",
+            //    "https://www.livescore.com/en/football/uruguay/primera-division-clausura/standings/",
+            //    "https://www.livescore.com/en/football/uruguay/primera-division-clausura/fixtures/",
+            //    GetTeamsList("Uruguay Primera Division", GetTeamAliases("Uruguay Primera Division"), merged)
+            //),
             
             /*new League(
                 "USA MLS",
@@ -666,26 +659,26 @@ public class LivescoreLeagues
                 GetTeamsList("USA USL Championship", GetTeamAliases("USA USL Championship"), merged)
             ),*/
             
-            new League(
-                "Venezuela Primera Division",
-                "https://www.livescore.com/en/football/venezuela/primera-division-clausura/standings/",
-                "https://www.livescore.com/en/football/venezuela/primera-division-clausura/fixtures/",
-                GetTeamsList("Venezuela Primera Division", GetTeamAliases("Venezuela Primera Division"), merged)
-            ),
+            //new League(
+            //    "Venezuela Primera Division",
+            //    "https://www.livescore.com/en/football/venezuela/primera-division-clausura/standings/",
+            //    "https://www.livescore.com/en/football/venezuela/primera-division-clausura/fixtures/",
+            //    GetTeamsList("Venezuela Primera Division", GetTeamAliases("Venezuela Primera Division"), merged)
+            //),
 
-            new League(
-                "Vietnam V.League 1",
-                "https://www.livescore.com/en/football/vietnam/v-league/standings/",
-                "https://www.livescore.com/en/football/vietnam/v-league/fixtures/",
-                GetTeamsList("Vietnam V.League 1", GetTeamAliases("Vietnam V.League 1"), merged)
-            ),
+            //new League(
+            //    "Vietnam V.League 1",
+            //    "https://www.livescore.com/en/football/vietnam/v-league/standings/",
+            //    "https://www.livescore.com/en/football/vietnam/v-league/fixtures/",
+            //    GetTeamsList("Vietnam V.League 1", GetTeamAliases("Vietnam V.League 1"), merged)
+            //),
 
-            new League(
-                "Wales Cymru Premier",
-                "https://www.livescore.com/en/football/wales/cymru-premier/standings/",
-                "https://www.livescore.com/en/football/wales/cymru-premier/fixtures/",
-                GetTeamsList("Wales Cymru Premier", GetTeamAliases("Wales Cymru Premier"), merged)
-            ),
+            //new League(
+            //    "Wales Cymru Premier",
+            //    "https://www.livescore.com/en/football/wales/cymru-premier/standings/",
+            //    "https://www.livescore.com/en/football/wales/cymru-premier/fixtures/",
+            //    GetTeamsList("Wales Cymru Premier", GetTeamAliases("Wales Cymru Premier"), merged)
+            //),
         ];
     }
 
@@ -829,11 +822,11 @@ public class LivescoreLeagues
                 { "Lyon", "Lyon" },
                 { "Marseille", "Marseille" },
                 { "Metz", "Metz" },
-                { "AS Monaco", "Monaco" },
+                { "Monaco", "AS Monaco" },
                 { "Nantes", "Nantes" },
                 { "Nice", "Nice" },
                 { "Paris FC", "Paris FC" },
-                { "Paris Saint-Germain", "PSG" },
+                { "PSG", "Paris Saint-Germain"},
                 { "Rennes", "Rennes" },
                 { "Strasbourg", "Strasbourg" },
                 { "Toulouse", "Toulouse" }
@@ -1156,6 +1149,9 @@ public class LivescoreLeagues
                 { "Fortaleza CEIF", "Fortaleza FC" },
                 { "Independiente Santa Fe", "Santa Fe" },
                 { "Rionegro Aguilas", "Aguilas Doradas Rionegro" },
+                { "Envigado FC", "Envigado" },
+                { "Boyaca Chico", "Chico FC" },
+                { "Llaneros", "Llaneros FC" },
                 { "Alianza Petrolera", "Alianza FC Valledupar" }
             };
         }
@@ -1300,14 +1296,15 @@ public class LivescoreLeagues
                 { "Klubi-04", "Klubi 04" }
             };
         }
-        else if (leagueName.Contains("Germany Bundesliga II", StringComparison.OrdinalIgnoreCase))
+        else if (leagueName.Contains("Germany Bundes II", StringComparison.OrdinalIgnoreCase))
         {
             return new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
                 {
-                    { "Nurnberg", "1. FC Nuremberg" },
-                    { "SC Preussen Munster", "Preussen Muenster" },
-                    { "Karlsruhe", "Karlsruher SC" },
-                    { "Schalke", "Schalke 04" }
+                    { "1. FC Nuremberg" , "Nurnberg" },
+                    { "Preussen Muenster","SC Preussen Munster" },
+                    { "Karlsruher SC", "Karlsruhe" },
+                    { "VfL Bochum", "Bochum" },
+                    { "Schalke 04", "Schalke" }
                 };
         }
         else if (leagueName.Contains("Greece Super League", StringComparison.OrdinalIgnoreCase))
@@ -1413,7 +1410,7 @@ public class LivescoreLeagues
             {
                 { "Reggiana", "AC Reggiana" },
                 { "Padova", "Calcio Padova" },
-                { "Sudtirol", "Sudtirol" }, // keep for normalization (LiveScore uses "Südtirol" with umlaut)
+                { "SÃ¼dtirol", "Sudtirol" }, // keep for normalization (LiveScore uses "Südtirol" with umlaut)
                 { "Cesena", "Cesena FC" },
                 { "Pescara", "Pescara Calcio" }
             };
@@ -1423,6 +1420,7 @@ public class LivescoreLeagues
             return new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase) 
             {
                 { "Nagoya Grampus", "Nagoya Grampus Eight" },
+                { "Yokohama F-Marinos", "Yokohama F.Marinos" },
                 { "Fagiano Okayama", "Fagiano Okayama FC" }
             };
         }
@@ -1839,8 +1837,9 @@ public class LivescoreLeagues
             {
                 { "AD Ceuta FC", "Ceuta" },
                 { "Castellon", "CD Castellon" },
-                { "Cultural Leonesa", "Cultural Leonesa" }, // same but dataset uses full "Cultural Leonesa"
-                { "Real Sociedad B", "R. Sociedad B" },
+                { "Cultural Leonesa", "Leonesa" }, // same but dataset uses full "Cultural Leonesa"
+                { "R. Sociedad B", "Real Sociedad B" },
+                { "Huesca", "SD Huesca" },
                 { "Real Valladolid", "Valladolid" }
             };
         }
